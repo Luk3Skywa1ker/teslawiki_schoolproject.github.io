@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style(tesla).css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 class="upmane">Company "Tesla"</h1>
+    <div class="infoo">
+        <div class="texxt">
+            <p>Tesla (iepriekš Tesla Motors) ir amerikāņu uzņēmums, 
+                elektrisko transportlīdzekļu un risinājumu 
+                (sk. SolarCity) elektroenerģijas uzglabāšanai 
+                ražotājs.<br><br>
+
+                Uzņēmumu 2003. gada jūlijā dibināja Martins Eberhards 
+                un Marks Tarpenings, bet pašreizējā uzņēmuma vadībā 
+                ir līdzdibinātāji Ilons Masks, Džefrijs Braiens 
+                Straubels un Ians Raits.<br><br>
+
+                Tesla 2019. gadā kļuva par pasaulē lielāko elektrisko 
+                automobiļu ražotāju. Tesla Model 3 sedans kļuva par 
+                visvairāk pārdoto elektromobili vēsturē, pārsniedzot 
+                800 000 pārdoto automobiļu atzīmi.
+            </p>
+        </div>
+        <img src="Martins Eberhards.png" alt="Martins Eberhards" class="imgg">
+    </div>
+    <br><br><br>
+    <div class="infoo">
+        <img src="teslalogo.png" alt="teslalogo" class="imgg">
+        <div class="texxt">
+            <p>
+                2021. gadā Tesla kļuva par pirmo autoražotāju 
+                kapitalizācijas ziņā, apsteidzot Japānas autoražotāju 
+                Toyota. 2021. gada oktobra beigās Tesla kapitalizācija 
+                pirmo reizi pārsniedza 1 triljonu ASV dolāru, 
+                pirms tam šo rādītāju bija sasnieguši tikai 4 ASV 
+                uzņēmumi (Apple, Microsoft, Amazon un Alphabet).<br><br>
+
+                Uzņēmums tika nosaukts amerikāņu inženiera un elektrotehnikas 
+                izgudrotāja Nikolas Teslas vārdā.</p>
+        </div>
+    </div>
+    <script>
+        let img = document.querySelector('img');
+        img.onmouseenter = function () {
+            img.classList.add('imgg2');
+        }
+        img.onmouseleave = function () {
+            img.classList.remove('imgg2');
+        }
+    </script>
+</body>
+</html>
